@@ -4,11 +4,11 @@ body {
 }
 
 .title {
-    font-size: 4rem;
+    font-size: 3rem;
     color: #000000;
     font-family: 'Noto Sans JP';
     font-weight: 600;
-    margin-top: 3.5em;
+    margin-top: 2em;
 }
 
 #chesca {
@@ -19,6 +19,23 @@ body {
     font-family: 'Quicksand';
     width: 600px;
     margin: auto;
-    font-size: 20px;
+    font-size: 15px;
+    margin-top: 1em;
 }
 
+.projects {
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+}
+
+.
+
+.card-img-top {
+    font-family: 'Noto Sans JP';
+    font-weight: 400;
+}
+
+.card-text {
+    font-family: Quicksand;
+}
