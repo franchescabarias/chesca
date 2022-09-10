@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Quicksand&display=swap');
+body {
+    background-color: #f1ede7 !important;
+}
+
+.title {
+    font-size: 4rem;
+    color: #000000;
+    font-family: 'Noto Sans JP';
+    font-weight: 600;
+    margin-top: 3.5em;
+}
+
+#chesca {
+    text-decoration: underline;
+}
+
+#info {
+    font-family: 'Quicksand';
+    width: 600px;
+    margin: auto;
+    font-size: 20px;
+}
+
