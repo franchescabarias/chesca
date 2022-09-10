@@ -1,41 +1,183 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&family=Ubuntu&display=swap');
+
+$font-heading: "Playfair Display";
+$font-text: "Square Peg";
+
 body {
-    background-color: #f1ede7 !important;
+    background-color: #e1dfde !important;
 }
 
-.title {
-    font-size: 3rem;
+
+.wrapper {
+    background: #E1DFDE !important;
+}
+
+
+.navbar {
+    background-color: #E1DFDE !important;
+}
+
+.nav-sub {
+    background-color: #E1DFDE !important;
+}
+
+.navbar-brand {
+    color: #000000 !important;
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    transition: all 200ms ease-in-out;
+}
+
+.navbar-brand:hover {
+    color: #fff;
+    background-color: #000000;
+}
+
+.nav-link {
+    display: grid !important;
+    color: #000000 !important;
+    padding: 2em !important;
+    font-family: 'Ubuntu';
+    font-size: 20px;
+    transition: all 150ms ease-in-out;
+}
+
+.nav-link:hover {
+    color: #fff !important;
+    background-color: transparent;
+    height: 50px;
+}
+
+.navbar-nav {
+    float: right !important;
+    margin: 0 auto;
+}
+
+
+span.navbar-toggler-icon {
+    color: #fff !important;
+}/* } CHANGE TOGGLE COLOUR */
+
+section.home-page {
+    height: 700px;
+}
+
+.col-4 {
+    line-height: 1 !important;
+    height: 700px;
+}
+
+
+h1 {
     color: #000000;
-    font-family: 'Noto Sans JP';
-    font-weight: 600;
-    margin-top: 2em;
+    font-family: 'Ubuntu';
+    font-size: 12em !important;
+    margin-top: 0.8em !important;
+    margin-left: 1em;
+    background-color: #fff;
 }
 
-#chesca {
-    text-decoration: underline;
+
+.build {
+    font-size: 30px;
+    font-family: "Ubuntu";
+    font-weight: bold;
+    display: grid;
 }
 
 #info {
-    font-family: 'Quicksand';
+    font-family: 'Ubuntu';
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+}
+
+#arrow {
+    font-size: 8em;
+    margin-bottom: 0;
+    margin-top: 0.5em;
+    background-color: #fff;
+    border-radius: 10px 50px  10px 50px;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+    position: relative;
+    animation: bouncearrow 1s infinite;
+}
+
+@keyframes bouncearrow {
+    0%{top: 0px;}
+    50%{top: 20px;}
+    100%{top: 0px;}
+}
+
+#arrow:hover {
+    color: #fff;
+    background-color: #000000;
+
+}
+
+
+
+#name {
+    font-size: 3.5em;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-weight: bold;
+    margin-left: 3.5em;
+    width: 1000px;
+}
+
+.homepage-info {
+    font-family: 'Ubuntu' !important;
+    font-size: 35px !important;
+}
+
+.middle {
+    display: flex !important;
+    align-items: flex-end !important;
+}
+
+.right-side {
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+   
+}
+
+.icons {
+    width: 50px !important;
+    height: 50px !important; 
+}
+
+a {
+    transition: all 200ms ease-in-out;   
+}
+
+a:hover {
+    color: #fff !important;
+}
+.line {
+    text-align: center;
+}
+
+
+.about {
+    height: 1000px;
+}
+
+.about-right-container {
+    font-size: 13em;
+    margin-top: 1.5em  !important;
+}
+
+#about-info {
+    font-family: 'Ubuntu';
+    font-size: 20px !important;
+    margin-top: 15em;
+    text-align: left;
+    display: block;
+    margin-left: 50px;
     width: 600px;
-    margin: auto;
-    font-size: 15px;
-    margin-top: 1em;
-}
-
-.projects {
-  display: flex;
-  justify-content: center;
-  font-size: 13px;
-}
-
-.
-
-.card-img-top {
-    font-family: 'Noto Sans JP';
-    font-weight: 400;
-}
-
-.card-text {
-    font-family: Quicksand;
 }
