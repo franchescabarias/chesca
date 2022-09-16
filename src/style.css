@@ -45,20 +45,8 @@ h1 {
     font-size: 35px !important;
 }
 
-a {
-    transition: all 200ms ease-in-out;   
-}
-
-a:hover {
-    color: #fff !important;
-}
-.line {
-    text-align: center;
-}
-
-
 .about {
-    height: 800px;
+    height: 600px;
 }
 
 .about-right-container {
@@ -85,6 +73,51 @@ a:hover {
     font-size: 12em;
 }
 
-.card-group {
-    margin-bottom:5em;
+#experience {
+    font-size: 12em;
+}
+
+
+#swe-raytheon {
+    font-family: 'Ubuntu';
+    font-size: 2em;
+}
+
+#swe-date { 
+    font-size: 22px;
+    font-family: 'Ubuntu';
+    font-style: italic;
+    font-weight: lighter;
+}
+
+#nology {
+    font-family: 'Ubuntu';
+    font-size: 2em;
+}
+
+#nology-date {
+    font-size: 22px;
+    font-family: 'Ubuntu';
+    font-style: italic;
+    font-weight: lighter;
+}
+
+#nurse {
+    font-family: 'Ubuntu';
+    font-size: 2em;
+}
+
+#nurse-date {
+    font-size: 22px;
+    font-family: 'Ubuntu';
+    font-style: italic;
+    font-weight: lighter;
+}
+
+ul {
+    list-style-type:  none;
+}
+
+#titles {
+    background-color:#fff;
 }
